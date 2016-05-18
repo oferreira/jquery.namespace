@@ -1,0 +1,15 @@
+{
+  "name": "jquery.namespace",
+  "homepage": "https://github.com/oferreira/jquery.namespace",
+  "authors": [
+    "olivier <olivier@mediainvest.io>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "jquery",
+    "namespace"
+  ],
+  "license": "MIT"
+}
