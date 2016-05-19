@@ -6,10 +6,10 @@ Install
 
     bower install --save https://github.com/oferreira/jquery.namespace.git
 
-Install
+Get started
 -------------
 
-How to create a namespace 
+How to create a namespace with jquery
 
     class Plugin {
        static elem = {
@@ -44,6 +44,7 @@ How to create a namespace
     
     
 
-How to use
+How to use a namespace with jquery
+
     $('#myelement').threeds().a();
     $('#myelement').threeds().b({id:1});
