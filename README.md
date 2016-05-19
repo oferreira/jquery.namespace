@@ -4,7 +4,7 @@ Welcome to project jquery.namespace !
 Install
 -------------
 
-    bower install --save https://github.com/oferreira/jquery.namespace.git
+    bower install --save jquery.namespace
 
 Get started
 -------------
@@ -12,9 +12,7 @@ Get started
 How to create a namespace with jquery
 
     class Plugin {
-       static elem = {
-         'id':null
-       };
+       static elem;
     
        static settings = {
          'id':null
