@@ -1,15 +1,25 @@
 {
   "name": "jquery.namespace",
   "homepage": "https://github.com/oferreira/jquery.namespace",
+  "version": "0.0.1",
   "authors": [
     "olivier <olivier@mediainvest.io>"
   ],
-  "description": "",
+  "description": "create a namespace for your plugin jQuery exemple $('#element').mycompany().myplugin() ",
   "main": "",
   "moduleType": [],
   "keywords": [
     "jquery",
-    "namespace"
+    "namespace",
+    "create namespace",
+    "jquery create namespace",
+    "jquery namespace"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
