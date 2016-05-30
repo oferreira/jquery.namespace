@@ -28,13 +28,13 @@ How to create a namespace with jquery
       }
     }
     
-    $.ns('threeds', {
+    $.namespace('threeds', {
         a: function (options:Object) {
             return new Plugin(this, options);
         }
     });
     
-    $.ns('threeds', {
+    $.namespace('threeds', {
         b: function (options:Object) {
             return new Plugin(this, options);
         }
