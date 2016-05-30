@@ -1,5 +1,5 @@
 (function ($) {
-    $.namespace = function (namespaceName, closures) {
+    $.ns = function (namespaceName, closures) {
 
         if ($.fn[namespaceName] === undefined) {
             $.fn[namespaceName] = function executor(context) {
